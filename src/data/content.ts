@@ -84,10 +84,11 @@ export const projects: Project[] = [
     summary:
       "Vape and e-liquid retailer \u2014 rebuilt organic visibility through technical fixes, on-page work, and search-intent targeting.",
     bullets: [
-      "Generated 33.2K organic clicks from 2.66M impressions in 6 months",
-      "Implemented technical SEO, on-page optimization, keyword targeting, and internal linking",
-      "Maintained a 1.2% average CTR through stronger titles and meta descriptions",
-      "Recovered and improved organic visibility toward the end of the reporting period",
+      "Generated 33.2K organic clicks from 2.66M impressions in 6 months, showing strong SEO-driven visibility and traffic growth.",
+      "Implemented technical SEO, On-page optimization, keyword targeting, internal linking, and content improvements to strengthen overall organic performance.",
+      "Maintained a 1.2% average CTR while reaching millions of search impressions, supported by better titles, meta descriptions, and search intent targeting.",
+      "Improved and recovered organic visibility toward the end of the reporting period, with a clear rise in impressions and a strong click peak.",
+      "Based on this level of organic traffic growth, the SEO results could support an estimated 40–45% revenue growth potential, depending on conversions and average order value.",
     ],
     metrics: [
       { label: "Clicks", before: "\u2014", after: "33.2K", change: "6 mo", positive: true },
@@ -125,10 +126,11 @@ export const projects: Project[] = [
     summary:
       "Fitness equipment retailer \u2014 scaled keyword coverage and content visibility to more than double search demand capture.",
     bullets: [
-      "Grew organic clicks from 1.97K to 3.8K, an 80% increase in 6 months",
-      "Expanded Google Search impressions from 203K to 457K, a 90% increase",
-      "Captured 254K additional impressions and 1.83K additional clicks",
-      "Improved average position from 24.9 to 29.7 while visibility more than doubled",
+      "Increased organic clicks from 1.97K to 3.8K (80%) over the latest 6 months, showing strong traffic gains from improved keyword targeting, on-page optimization, and content visibility.",
+      "Expanded Google Search impressions from 203K to 457K (90%), indicating significantly broader SERP reach supported by content optimization, keyword coverage, and indexable-page improvements.",
+      "Generated 254K additional impressions and 1.83K additional clicks, demonstrating that the SEO strategy successfully increased search demand capture and organic acquisition at scale.",
+      "Maintained a 0.8% CTR while visibility more than doubled, highlighting an opportunity for continued title/meta-description and SERP-snippet optimization to convert the expanded impression base into more clicks.",
+      "●	Based on the 80% organic click growth, estimated revenue potential is approximately 50%, while ranking optimization can address the position shift from 24.9 to 29.7 and unlock further growth.",
     ],
     metrics: [
       { label: "Clicks", before: "1.97K", after: "3.8K", change: "+80%", positive: true },
@@ -166,10 +168,11 @@ export const projects: Project[] = [
     summary:
       "Technology partner site \u2014 ranking-focused SEO execution that turned fewer impressions into more, higher-quality clicks.",
     bullets: [
-      "Increased organic clicks from 2.23K to 2.75K, up 23.3% in 6 months",
-      "Improved average Google ranking from 27.5 to 17.4, up 10.1 positions",
-      "Raised organic CTR from 0.4% to 0.5%, up 25%",
-      "Grew clicks by 520 despite a 6.6% drop in impressions, from better rankings",
+      "Increased organic clicks from 2.23K to 2.75K (+23.3%) through ranking-focused SEO execution, generating substantially more qualified search traffic over the latest 6-month period.",
+      "Improved average Google ranking from 27.5 to 17.4 (+10.1 positions), reflecting stronger keyword relevance, on-page optimization, internal linking, and overall SERP competitiveness.",
+      "Raised organic CTR from 0.4% to 0.5% (+25%), demonstrating stronger SERP engagement consistent with optimized title tags, meta descriptions, and search-intent alignment.",
+      "Generated 520 additional organic clicks despite impressions declining from 604K to 564K (-6.6%), indicating significantly more efficient traffic acquisition from improved rankings and click-through performance.",
+      "With organic clicks growing 23.3%, the project carries an estimated ~23% revenue-growth potential if conversion rate and average order value remain stable, highlighting the commercial impact of the SEO gains.",
     ],
     metrics: [
       { label: "Clicks", before: "2.23K", after: "2.75K", change: "+23.3%", positive: true },
@@ -207,10 +210,11 @@ export const projects: Project[] = [
     summary:
       "Banquet hall and event-venue directory \u2014 sharpened service-page targeting to convert more high-intent bookings.",
     bullets: [
-      "Increased organic clicks from 44.6K to 47K, up 5.4% in 6 months",
-      "Improved organic CTR from 1.6% to 1.8%, up 12.5%",
-      "Strengthened average ranking from 6.7 to 6.3, holding Page-1 visibility",
-      "Grew clicks by 2.4K despite an 8.5% drop in impressions, from sharper targeting",
+      "Increased organic clicks from 44.6K to 47K (+5.4%) through service-page keyword targeting and search-intent optimization, driving more qualified prospects toward event-planning enquiries.",
+      "Improved organic CTR from 1.6% to 1.8% (+12.5%) through stronger SERP messaging, title-tag refinement, and service-focused metadata designed to attract high-intent event-planning searches.",
+      "Strengthened average ranking from 6.7 to 6.3, maintaining strong Page-1 visibility for commercially valuable event-service queries through on-page optimization and internal-linking improvements.",
+      "Generated 2.4K additional clicks despite impressions declining from 2.81M to 2.57M (-8.5%), indicating more efficient acquisition of relevant users through better keyword prioritization and conversion-focused organic visibility.",
+      "With organic traffic increasing 5.4%, the campaign supports an estimated ~5–6% revenue/booking growth potential if enquiry conversion rate and average event-booking value remain consistent.",
     ],
     metrics: [
       { label: "Clicks", before: "44.6K", after: "47K", change: "+5.4%", positive: true },
