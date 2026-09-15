@@ -48,7 +48,7 @@ export default function Projects() {
                       {project.evidence.length} records
                     </span>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
                     {project.evidence.map((image) => (
                       <figure key={image.src} className="overflow-hidden rounded-lg border border-line bg-bg-raised">
                         <Image
