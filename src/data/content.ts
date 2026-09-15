@@ -178,6 +178,28 @@ export const projects: Project[] = [
       { label: "Est. revenue lift", before: "\u2014", after: "~23%", change: "potential", positive: true },
     ],
     sparkline: [20, 19, 21, 20, 22, 21, 23, 22, 24, 25, 26, 27],
+         evidence: [
+      {
+        src: "/projects/VizzWeb/VizzWeb-hero.png",
+        alt: "Vizz Web Solutions homepage",
+        label: "Website work",
+      },
+      {
+        src: "/projects/VizzWeb/perfromance-evidance1.jpg",
+        alt: "Google Search Console performance report for VizzWeb",
+        label: "Search performance",
+      },
+      {
+        src: "/projects/VizzWeb/performnace-evidance2.png",
+        alt: "Semrush domain overview for VizzWeb",
+        label: "Visibility evidence",
+      },
+      {
+        src: "/projects/VizzWeb/performance-evidance3.png",
+        alt: "Semrush traffic and keyword growth report for VizzWeb",
+        label: "Traffic growth",
+      },
+    ],
   },
   {
     name: "Hamara Venue",
@@ -197,6 +219,28 @@ export const projects: Project[] = [
       { label: "Est. revenue lift", before: "\u2014", after: "~5\u20136%", change: "potential", positive: true },
     ],
     sparkline: [40, 41, 42, 43, 45, 44, 46, 45, 47, 46, 47, 47],
+         evidence: [
+      {
+        src: "/projects/HamaraVenue/HamaraVenue-hero.png",
+        alt: "Hamara Venue event-venue directory homepage",
+        label: "Website work",
+      },
+      {
+        src: "/projects/HamaraVenue/performance-evidance1.jpg",
+        alt: "Google Search Console performance report for HamaraVenue",
+        label: "Search performance",
+      },
+      {
+        src: "/projects/HamaraVenue/performance-evidance2.png",
+        alt: "Semrush domain overview for HamaraVenue",
+        label: "Visibility evidence",
+      },
+      {
+        src: "/projects/HamaraVenue/performance-evidance4.png",
+        alt: "Semrush traffic and keyword growth report for HamaraVenue",
+        label: "Traffic growth",
+      },
+    ],
   },
 ];
 
