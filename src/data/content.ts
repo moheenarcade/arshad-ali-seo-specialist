@@ -137,6 +137,28 @@ export const projects: Project[] = [
       { label: "Est. revenue lift", before: "\u2014", after: "~50%", change: "potential", positive: true },
     ],
     sparkline: [10, 14, 13, 19, 24, 22, 27, 25, 31, 29, 35, 38],
+     evidence: [
+      {
+        src: "/projects/AthletixAE/athletix-hero.png",
+        alt: "AthletixAE ecommerce homepage",
+        label: "Website work",
+      },
+      {
+        src: "/projects/AthletixAE/performance-evidance1.png",
+        alt: "Google Search Console performance report for AthletixAE",
+        label: "Search performance",
+      },
+      {
+        src: "/projects/AthletixAE/performance-evidance2.png",
+        alt: "Semrush domain overview for AthletixAE",
+        label: "Visibility evidence",
+      },
+      {
+        src: "/projects/AthletixAE/performance-evidance3.png",
+        alt: "Semrush traffic and keyword growth report for AthletixAE",
+        label: "Traffic growth",
+      },
+    ],
   },
   {
     name: "Vizz Web Solutions",
