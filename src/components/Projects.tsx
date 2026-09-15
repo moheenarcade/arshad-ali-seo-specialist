@@ -1,4 +1,5 @@
 import { projects } from "@/data/content";
+import Image from "next/image";
 import Sparkline from "./Sparkline";
 
 export default function Projects() {
@@ -16,7 +17,7 @@ export default function Projects() {
           behind measurable organic growth and revenue.
         </p>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
+        <div className="mt-12 grid gap-6 lg:grid-cols-1">
           {projects.map((project) => (
             <article
               key={project.name}
@@ -37,7 +38,36 @@ export default function Projects() {
                 {project.summary}
               </p>
 
-              <div className="mt-5 rounded-xl border border-line bg-bg-raised p-4">
+              {project.evidence && (
+                <div className="mt-6">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <h4 className="font-data text-[11px] uppercase tracking-[0.16em] text-moss">
+                      Performance evidence
+                    </h4>
+                    <span className="font-data text-[11px] text-ink-faint">
+                      {project.evidence.length} records
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-3">
+                    {project.evidence.map((image) => (
+                      <figure key={image.src} className="overflow-hidden rounded-lg border border-line bg-bg-raised">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={1200}
+                          height={700}
+                          className="aspect-[16/9] w-full object-cover object-top"
+                        />
+                        <figcaption className="px-3 py-2 text-xs text-ink-faint">
+                          {image.label}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* <div className="mt-5 rounded-xl border border-line bg-bg-raised p-4">
                 <Sparkline data={project.sparkline} />
                 <div className="mt-3 grid grid-cols-2 gap-3 border-t border-line pt-3 sm:grid-cols-4">
                   {project.metrics.map((metric) => (
@@ -58,7 +88,7 @@ export default function Projects() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               <ul className="mt-5 space-y-2.5">
                 {project.bullets.map((bullet) => (

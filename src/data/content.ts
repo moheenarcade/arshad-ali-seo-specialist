@@ -70,6 +70,11 @@ export type Project = {
   bullets: string[];
   metrics: Metric[];
   sparkline: number[];
+  evidence?: {
+    src: string;
+    alt: string;
+    label: string;
+  }[];
 };
 
 export const projects: Project[] = [
@@ -91,6 +96,28 @@ export const projects: Project[] = [
       { label: "Est. revenue lift", before: "\u2014", after: "40\u201345%", change: "potential", positive: true },
     ],
     sparkline: [12, 18, 15, 22, 28, 24, 30, 27, 33, 31, 36, 33],
+    evidence: [
+      {
+        src: "/projects/eliquidbase/eliquedhero.png",
+        alt: "Eliquidbase UK ecommerce homepage",
+        label: "Website work",
+      },
+      {
+        src: "/projects/eliquidbase/performance-evidance1.png",
+        alt: "Google Search Console performance report for Eliquidbase UK",
+        label: "Search performance",
+      },
+      {
+        src: "/projects/eliquidbase/performance-evidance2.png",
+        alt: "Semrush domain overview for Eliquidbase UK",
+        label: "Visibility evidence",
+      },
+      {
+        src: "/projects/eliquidbase/performance-evidance3.png",
+        alt: "Semrush traffic and keyword growth report for Eliquidbase UK",
+        label: "Traffic growth",
+      },
+    ],
   },
   {
     name: "Athletix AE",
