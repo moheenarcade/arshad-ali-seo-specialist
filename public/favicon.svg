@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Arshad Ali favicon</title>
+  <desc id="desc">Portfolio favicon for Arshad Ali SEO specialist</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1721"/>
+      <stop offset="100%" stop-color="#0a0f0d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#35d38a"/>
+      <stop offset="100%" stop-color="#1db980"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="60" fill="url(#bg)"/>
+  <circle cx="128" cy="96" r="52" fill="#dfe7e2" opacity="0.9"/>
+  <path d="M78 198c10-28 30-43 50-43s40 15 50 43" fill="#dfe7e2" opacity="0.92"/>
+  <path d="M84 111l18-34h52l18 34-14 26H98l-14-26Zm22 7h44l-13-21h-18l-13 21Z" fill="url(#accent)"/>
+  <circle cx="128" cy="96" r="5" fill="#0a0f0d"/>
+  <path d="M110 87c2-12 9-18 18-18 8 0 15 5 18 16" fill="none" stroke="#0a0f0d" stroke-width="7" stroke-linecap="round"/>
+</svg>

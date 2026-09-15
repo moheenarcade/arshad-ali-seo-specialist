@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Arshad Ali SEO Specialist</title>
+  <desc id="desc">Profile preview for Arshad Ali SEO specialist portfolio</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0e1412"/>
+      <stop offset="100%" stop-color="#101a17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#35d38a"/>
+      <stop offset="100%" stop-color="#90f0c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="80" r="160" fill="#1b2d28" opacity="0.7"/>
+  <circle cx="1080" cy="520" r="180" fill="#1a332a" opacity="0.65"/>
+  <rect x="60" y="48" width="1080" height="534" rx="36" fill="#0a0f0d" stroke="#223029"/>
+  <g transform="translate(110 100)">
+    <circle cx="160" cy="160" r="160" fill="#dfe7e2" opacity="0.9"/>
+    <path d="M48 330c28-75 84-118 160-118 76 0 132 43 160 118" fill="#dfe7e2" opacity="0.9"/>
+    <path d="M96 171l36-67h99l36 67-26 50H122l-26-50Zm40 14h78l-23-38h-32l-23 38Z" fill="url(#accent)"/>
+    <circle cx="160" cy="160" r="10" fill="#0a0f0d"/>
+    <path d="M118 147c5-28 27-43 42-43 17 0 37 15 42 39" fill="none" stroke="#0a0f0d" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(430 170)">
+    <text x="0" y="90" font-family="Arial, Helvetica, sans-serif" font-size="70" fill="#eef3f0" font-weight="700">Arshad Ali</text>
+    <text x="0" y="156" font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#35d38a" letter-spacing="4">SEO SPECIALIST</text>
+    <rect x="0" y="188" width="350" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="0" y="255" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#96a49d">Technical SEO • On-Page SEO • E-commerce Growth</text>
+    <text x="0" y="310" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#96a49d">Helping brands grow organic visibility, traffic, and revenue.</text>
+  </g>
+</svg>

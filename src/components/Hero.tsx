@@ -68,7 +68,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 gap-6 pt-6">
               {stats.map((stat) => (
                 <div key={stat.label}>
-                  <div className="font-data text-2xl font-semibold text-ink sm:text-3xl">
+                  <div className="font-data text-lg md:text-lg font-semibold text-ink sm:text-2xl">
                     {stat.value}
                   </div>
                   <div className="mt-1 text-xs leading-snug text-ink-muted">

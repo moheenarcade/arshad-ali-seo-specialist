@@ -1,0 +1,17 @@
+{
+  "name": "Arshad Ali | SEO Specialist",
+  "short_name": "Arshad Ali",
+  "description": "SEO specialist helping brands boost rankings, traffic, and leads with technical SEO, content strategy, and conversion-focused optimization.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f0d",
+  "theme_color": "#35d38a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
