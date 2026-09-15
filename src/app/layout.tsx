@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { profile } from "@/data/content";
 
 const siteUrl = "https://arshad-ali-seo-specialist.vercel.app";
 
@@ -73,12 +72,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   icons: {
-    icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/favicon-32x32.png", rel: "icon", sizes: "32x32" },
-      { url: "/favicon-16x16.png", rel: "icon", sizes: "16x16" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: [{ url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" }],
   },
 };
 

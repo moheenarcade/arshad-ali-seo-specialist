@@ -1,6 +1,5 @@
 import { projects } from "@/data/content";
 import Image from "next/image";
-import Sparkline from "./Sparkline";
 
 export default function Projects() {
   return (
@@ -50,15 +49,19 @@ export default function Projects() {
                   </div>
                   <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
                     {project.evidence.map((image) => (
-                      <figure key={image.src} className="overflow-hidden rounded-lg border border-line bg-bg-raised">
+                      <figure
+                        key={image.src}
+                        className="group relative overflow-hidden rounded-lg border border-line bg-bg-raised"
+                      >
                         <Image
                           src={image.src}
                           alt={image.alt}
                           width={1200}
                           height={700}
-                          className="aspect-[16/9] w-full object-cover object-top"
+                          className="aspect-[16/9] w-full object-cover object-top transition duration-700 ease-out group-hover:scale-105 group-hover:saturate-125"
                         />
-                        <figcaption className="px-3 py-2 text-xs text-ink-faint">
+                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#06120c]/35 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                        <figcaption className="relative px-3 py-2 text-xs text-ink-faint transition-colors duration-300 group-hover:text-ink-muted">
                           {image.label}
                         </figcaption>
                       </figure>
