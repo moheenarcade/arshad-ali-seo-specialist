@@ -112,7 +112,7 @@ export const projects: Project[] = [
       "Expanded Google Search impressions from 203K to 457K (90%), indicating significantly broader SERP reach supported by content optimization, keyword coverage, and indexable-page improvements.",
       "Generated 254K additional impressions and 1.83K additional clicks, demonstrating that the SEO strategy successfully increased search demand capture and organic acquisition at scale.",
       "Maintained a 0.8% CTR while visibility more than doubled, highlighting an opportunity for continued title/meta-description and SERP-snippet optimization to convert the expanded impression base into more clicks.",
-      "●	Based on the 80% organic click growth, estimated revenue potential is approximately 50%, while ranking optimization can address the position shift from 24.9 to 29.7 and unlock further growth.",
+      "Based on the 80% organic click growth, estimated revenue potential is approximately 50%, while ranking optimization can address the position shift from 24.9 to 29.7 and unlock further growth.",
     ],
     metrics: [
       { label: "Clicks", before: "1.97K", after: "3.8K", change: "+80%", positive: true },
