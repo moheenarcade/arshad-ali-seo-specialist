@@ -9,14 +9,14 @@ export default function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-moss-dim opacity-10 blur-3xl" />
 
       <div className="relative mx-auto flex max-w-5xl flex-col items-center px-6 pb-20 pt-14 text-center sm:pb-24 sm:pt-20 md:px-10 md:pb-28 md:pt-24">
-        <Image
+        {/* <Image
           src="/favicon-96x96.png"
           alt={`${profile.name} profile photo`}
           width={112}
           height={112}
           priority
           className="h-24 w-24 rounded-full border-2 border-line object-cover shadow-[0_0_0_6px_rgba(255,255,255,0.025)] sm:h-28 sm:w-28"
-        />
+        /> */}
 
         <h1 className="font-display mt-7 text-5xl font-semibold leading-[0.98] tracking-tight text-ink sm:text-6xl md:text-7xl">
           {profile.name}

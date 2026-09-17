@@ -9,7 +9,7 @@ export default function Expertise() {
             Expertise
           </span>
           <h2 className="font-display mt-5 text-4xl font-semibold tracking-tight text-ink sm:text-5xl">
-            The toolbox behind the rankings
+            Technical Expertise
           </h2>
           <p className="mx-auto mt-5 max-w-3xl text-lg text-ink-muted sm:text-xl">
           What I use day to day to plan, execute, and prove out organic
