@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import StatsStrip from "@/components/StatsStrip";
 import Expertise from "@/components/Expertise";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
@@ -13,6 +14,7 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <StatsStrip />
         <Expertise />
         <Projects />
         <Experience />

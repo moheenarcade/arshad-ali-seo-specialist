@@ -1,7 +1,7 @@
 export const profile = {
   name: "Arshad Ali",
   role: "SEO Specialist",
-  bio: "I'm a passionate SEO Specialist with 4 years of hands-on experience helping businesses increase search visibility, grow qualified organic traffic, and improve overall digital performance through data-driven SEO strategies. I specialize in On-Page SEO, Technical SEO, Semantic SEO, AEO, GEO, E-E-A-T, keyword research, search intent optimization, competitor analysis, and conversion-focused SEO.",
+  bio: "I’m a passionate SEO Specialist with 4 years of hands-on experience helping businesses increase search visibility, grow qualified organic traffic, and improve overall digital performance through data-driven SEO strategies. I specialize in On-Page SEO, Technical SEO, Semantic SEO, AEO, GEO, E-E-A-T, Keyword Research, search intent optimization, competitor analysis, and conversion-focused SEO. By combining technical optimization, content strategy, topical authority, structured data, and continuous performance analysis, I create SEO strategies that not only improve rankings and online visibility but also attract the right audience, generate more leads and customers and contribute to sustainable revenue growth. ",
   bioSecondary:
     "By combining technical optimization, content strategy, topical authority, structured data, and continuous performance analysis, I build SEO programs that don't just move rankings \u2014 they attract the right audience, generate leads, and contribute to sustainable revenue growth.",
   linkedin: "https://www.linkedin.com/in/arshadaliseospecialist/",
@@ -9,50 +9,32 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "10+", label: "Brands & projects delivered" },
-  { value: "4", label: "Years in digital marketing" },
-  { value: "+80%", label: "Best organic revenue uplift" },
-  { value: "UK\u00b7US\u00b7AE\u00b7PK", label: "Markets covered" },
+  { value: "10+", label: "Projects Delivered" },
+  { value: "4", label: "Years Experience in SEO" },
+  { value: "+70%", label: "Best Organic Revenue Uplift" },
+  { value: "UK\u00b7US\u00b7AE\u00b7PK", label: "Markets Covered" },
 ];
 
-export type SkillGroup = {
-  title: string;
-  skills: string[];
-};
-
-export const skillGroups: SkillGroup[] = [
-  {
-    title: "Core SEO",
-    skills: [
-      "On-Page SEO",
-      "Off-Page SEO",
-      "Technical SEO",
-      "Local SEO",
-      "E-Commerce SEO",
-      "Semantic SEO",
-    ],
-  },
-  {
-    title: "Search Strategy",
-    skills: [
-      "AEO & GEO Optimization",
-      "Keyword Research",
-      "Competitor Analysis",
-      "SEO Content Writing",
-    ],
-  },
-  {
-    title: "Analytics & Tools",
-    skills: ["GSC & GA4", "SEMrush", "Ahrefs & more"],
-  },
-  {
-    title: "Platforms & Web",
-    skills: ["Shopify", "WordPress", "HTML & CSS"],
-  },
-  {
-    title: "Growth & Outreach",
-    skills: ["Social Media Management"],
-  },
+export const expertise = [
+  "Google Search Console",
+  "Google Analytics (GA4)",
+  "AI Search Optimization (AEO & GEO)",
+  "Keyword Research",
+  "Competitor Analysis",
+  "Semrush",
+  "Ahrefs",
+  "Screaming Frog",
+  "On-Page SEO",
+  "Off-Page SEO",
+  "Local SEO",
+  "Technical SEO",
+  "Shopify",
+  "WordPress",
+  "SEO Content Writing",
+  "HTML & CSS",
+  "Semantic SEO",
+  "E-Commerce SEO",
+  "Social Media Management",
 ];
 
 export type Metric = {

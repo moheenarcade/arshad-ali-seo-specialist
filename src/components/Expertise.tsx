@@ -1,4 +1,4 @@
-import { skillGroups } from "@/data/content";
+import { expertise } from "@/data/content";
 
 export default function Expertise() {
   return (
@@ -17,24 +17,17 @@ export default function Expertise() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2">
-          {skillGroups.map((group) => (
-            <div key={group.title} className="rounded-lg border border-line bg-transparent p-7 md:p-8">
-              <h3 className="font-display text-2xl font-semibold tracking-tight text-ink">
-                {group.title}
-              </h3>
-              <div className="mt-7 flex flex-wrap gap-2.5">
-                {group.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="rounded-md bg-bg-card px-3.5 py-2 text-sm font-medium text-ink-muted"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
+        <div className="mx-auto mt-16 max-w-5xl rounded-2xl border border-line bg-bg-card p-7 md:p-10">
+          <div className="flex flex-wrap justify-center gap-3">
+            {expertise.map((skill) => (
+              <span
+                key={skill}
+                className="transform-gpu cursor-pointer rounded-full border border-line bg-bg-raised px-4 py-2.5 text-center text-sm font-medium text-ink-muted transition duration-300 ease-in-out hover:-rotate-1 hover:scale-105 hover:border-moss hover:text-ink"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

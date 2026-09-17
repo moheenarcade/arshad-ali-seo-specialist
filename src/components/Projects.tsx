@@ -9,19 +9,22 @@ export default function Projects() {
           Case studies
         </span>
         <h2 className="font-display mt-3 max-w-xl text-3xl font-semibold text-ink sm:text-4xl">
-          Featured SEO projects
+          Featured Projects
         </h2>
         <p className="mt-4 max-w-xl text-ink-muted">
-          Strategic SEO, content optimization, and technical improvements
-          behind measurable organic growth and revenue.
+         Explore my featured SEO projects, where strategic SEO, content optimization and technical improvements drive measurable organic growth & revenue.
         </p>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-1">
-          {projects.map((project) => (
-            <article
-              key={project.name}
-              className="flex flex-col rounded-2xl border border-line bg-bg-card p-7"
-            >
+          {projects.map((project) => {
+            const heroImage = project.evidence?.[0];
+            const supportingImages = project.evidence?.slice(1) ?? [];
+
+            return (
+              <article
+                key={project.name}
+                className="flex flex-col rounded-2xl border border-line bg-bg-card p-7"
+              >
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-display text-xl font-semibold text-ink">
@@ -33,42 +36,24 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="mt-4 text-sm leading-relaxed text-ink-muted">
+              {heroImage && (
+                <figure className="group mt-6 overflow-hidden rounded-lg border border-line bg-bg-raised">
+                  <Image
+                    src={heroImage.src}
+                    alt={heroImage.alt}
+                    width={1200}
+                    height={700}
+                    className="h-auto max-h-[36rem] w-full object-contain transition duration-700 ease-out group-hover:scale-[1.02]"
+                  />
+                  <figcaption className="px-3 py-2 text-xs text-ink-faint">
+                    {heroImage.label}
+                  </figcaption>
+                </figure>
+              )}
+
+              <p className="mt-5 text-sm leading-relaxed text-ink-muted">
                 {project.summary}
               </p>
-
-              {project.evidence && (
-                <div className="mt-6">
-                  <div className="mb-3 flex items-center justify-between gap-3">
-                    <h4 className="font-data text-[11px] uppercase tracking-[0.16em] text-moss">
-                      Performance evidence
-                    </h4>
-                    <span className="font-data text-[11px] text-ink-faint">
-                      {project.evidence.length} records
-                    </span>
-                  </div>
-                  <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
-                    {project.evidence.map((image) => (
-                      <figure
-                        key={image.src}
-                        className="group relative overflow-hidden rounded-lg border border-line bg-bg-raised"
-                      >
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={1200}
-                          height={700}
-                          className="aspect-[16/9] w-full object-cover object-top transition duration-700 ease-out group-hover:scale-105 group-hover:saturate-125"
-                        />
-                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#06120c]/35 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                        <figcaption className="relative px-3 py-2 text-xs text-ink-faint transition-colors duration-300 group-hover:text-ink-muted">
-                          {image.label}
-                        </figcaption>
-                      </figure>
-                    ))}
-                  </div>
-                </div>
-              )}
 
               {/* <div className="mt-5 rounded-xl border border-line bg-bg-raised p-4">
                 <Sparkline data={project.sparkline} />
@@ -101,8 +86,41 @@ export default function Projects() {
                   </li>
                 ))}
               </ul>
-            </article>
-          ))}
+
+              {supportingImages.length > 0 && (
+                <div className="mt-8">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <h4 className="font-data text-[11px] uppercase tracking-[0.16em] text-moss">
+                      Performance evidence
+                    </h4>
+                    <span className="font-data text-[11px] text-ink-faint">
+                      {supportingImages.length} records
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 gap-4">
+                    {supportingImages.map((image) => (
+                      <figure
+                        key={image.src}
+                        className="group overflow-hidden rounded-lg border border-line bg-bg-raised"
+                      >
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={1200}
+                          height={700}
+                          className="h-auto max-h-[36rem] w-full object-contain transition duration-700 ease-out group-hover:scale-[1.02]"
+                        />
+                        <figcaption className="px-3 py-2 text-xs text-ink-faint transition-colors duration-300 group-hover:text-ink-muted">
+                          {image.label}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                </div>
+              )}
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>
